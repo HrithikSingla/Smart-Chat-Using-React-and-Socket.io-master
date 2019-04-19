@@ -1,0 +1,317 @@
+.login-background{
+    background-image: url('https://i.pinimg.com/originals/32/b8/77/32b877ed4aa7778cc7d43ebb7d95a6f1.png');
+    height:100%;
+}
+.project-title{
+    text-align: center;
+    font-size:65px;
+    font-family: 'Germania One', cursive;
+}
+
+.login-card{
+    margin: 0 auto;
+    width: 450px;
+    margin-top:30px;
+    border-radius:25px;
+}
+
+.login-card-title{
+    text-align: center;
+    font-weight: bold;
+    padding:25px;
+    font-family: 'Bitter', serif;
+    font-size:45px;
+}
+
+.login-card-text{
+    padding:0px 60px 30px 60px;
+}
+.login-card-text label{
+    font-size:15px;
+}
+.login-card-text input[type="text"], .login-card-text input[type="password"]{
+    outline:none;
+    border: 0px ;
+    border-bottom: 1px solid;
+    width:100%;
+    padding:0px 10px 5px 10px;
+    margin-top:5px;
+}
+.login-card-text input[type="text"]:focus, .login-card-text input[type="password"]:focus{
+    border-bottom: 3px solid #1599C3;
+}
+
+.login-card-text p{
+    margin-top:10px;
+    text-align:right;
+}
+
+.login-card-text p a{
+    color:black;
+}
+
+.login-card-text p a:hover{
+    color:#66D3F6;
+}
+
+input:focus::-webkit-input-placeholder {
+    color:transparent;
+}
+label[for="loginpassword"]{
+    margin-top:10px;
+}
+
+.login-card-button{
+    border-radius:16px;
+    border: none;
+    padding:8px;
+    font-family: 'Bitter', serif;
+    font-size:23px;
+    color:white;
+    background-image: linear-gradient(to right, #6fdcd2, #00cbe2, #00b7f7, #009eff, #007cff, #406dfd, #635bf8, #8142ee, #a349ee, #bf53ed, #d75eed, #ed6bed);
+}
+
+.login-card-button:hover{
+    color:white;
+    background-image: linear-gradient(to right, #3fb7ac, #00aabe, #009bd1, #0087dd, #006dd9, #465ed1, #664cc5, #7f34b5, #9d29a9, #b51e9b, #c7188b, #d51b7c);
+}
+
+
+.login-method{ margin:0 auto;}
+.facebook{ border-radius: 16px;}
+.fa-facebook, .fa-google, .fa-twitter{ cursor: pointer; }
+.fa-google:hover{ color: #DB4437; }
+.fa-facebook:hover{ color:#3B5998; }
+.fa-twitter:hover{color:#6699FF;}
+.home{ padding: 20px; }
+
+.online-chat-card .card-body{
+    height:72vh;
+    overflow-y: auto;
+ }
+
+
+.online-chat-card, .online-user-card{
+    background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+    border-radius: 16px;
+}
+
+.signout-div{
+    display: inline-block;
+    float:right;
+}
+
+.online-user-text{
+    display: inline-block;
+    float:right;
+    padding-top: 4px;
+    padding-right: 10px;
+    font-family: 'AbeeZee';
+    font-size:20px;
+}
+.signout-button{
+    background-color: #2550E1;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding:8px 16px;
+    color:white;
+    border-radius: 12px;
+}
+
+.signout-button:hover{
+    background-color: #3F8CF5;
+}
+
+.search-box{
+  width:100%;
+  border-radius:20px;
+  outline: none;
+  padding: 5px 15px;
+}
+
+.chat-box{
+  width:86%;
+  border-radius:16px;
+  padding:5px 15px;
+  outline: none;
+  margin-right: 5px;
+  border:none;
+  background-color: #1E69DE;
+  opacity: 0.8;
+  color:white;
+}
+
+.chat-box:focus{
+    border: 4px solid #2F908A;
+}
+
+.online-user-image{
+    height: 80px;
+    width: 85px;
+}
+
+.online-user-box{
+    background-color: #519FCF;
+}
+
+.online-user-box .card-body{
+    padding: 5px !important;
+}
+
+.active-status{
+    position: relative;
+    bottom:43px;
+    left:105px;
+    font-size:13px;
+    color: green;
+    font-weight: bold;
+}
+.user-name{
+    padding-top: 22px !important;
+    font-size: 24px;
+    font-family:'Lobster';
+}
+
+.rounded-lg{
+    border-radius: 16px !important;
+    padding:7px 18px;
+}
+
+/* Sign Up CSS */
+.signup-container{
+    padding: 100px 0px;
+}
+.signup-heading{
+    text-align: center;
+    font-family: 'Bitter', cursive;
+    font-size:50px;
+}
+form[name="signupForm"]{
+    padding:20px 80px;
+}
+
+@media screen and (min-width:768px){
+    form[name="signupForm"]{
+        padding:20px 20px;
+    }
+}
+
+@media screen and (min-width:815px){
+    form[name="signupForm"]{
+        padding:20px 30px;
+    }
+}
+#signupusername, #signuppassword, #signupconfPassword{
+    width: 100%;
+    outline:none;
+    border-radius:16px;
+    border:none;
+    padding:5px 20px;
+}
+label[for="signupusername"], label[for="signuppassword"], label[for="signupconfPassword"]{
+    padding:0px 11px;
+    font-size: 14px;
+}
+.submitButton{
+    float:right;
+    margin-right:5px;
+    border-radius: 20px;
+    border: none;
+    padding:8px 15px;
+    background-color: #4CAF50;
+    color:white;
+    outline: none;
+}
+.error-message{
+    color:red;
+    font-size:12px;
+    margin-left:10px;
+    padding:2px;
+}
+
+/* Online Chat Box CSS */
+.home-card-header{
+    padding:10px 30px;
+}
+.home-card-header p{
+    font-size:30px;
+    font-family: 'Lobster', cursive;
+    float:left;
+}
+
+.home-card-header a{
+    color:white;
+    float:right;
+}
+
+.home-card-header button{
+    color:white;
+    float:right;
+}
+
+.message-card{
+    width:400px;
+    border-radius:16px;
+    padding:10px 20px;
+    background-color: #82CCDD;
+    margin-top: auto;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	border-radius: 25px;
+    font-size: 18px;
+}
+
+.float-left{
+    text-align:left !important;
+}
+
+.active-user-heading{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size:20px;
+    color: red;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.active-user-message{
+    font-family: 'PT Sans-Narrow', sans-serif;
+    font-size: 20px;
+    margin-left:5px;
+}
+
+.alert-danger{
+    text-align: center;
+}
+
+.card-footers{
+    padding: 0px 10px 10px 10px;
+}
+.card-footers input{
+    width:90%;
+}
+.card-footers input::placeholder{
+    color:white;
+}
+
+@media screen and (max-width: 1200px){
+    .card-footers input{
+        width:85%;
+    }
+}
+@media screen and (max-width: 871px){
+    .card-footers input{
+        width:83%;
+    }
+}
+@media screen and (max-width: 523px){
+    .card-footers input{
+        width:80%;
+    }
+}
+
+@media screen and (max-width: 454px){
+    .card-footers input{
+        width:78%;
+    }
+}
